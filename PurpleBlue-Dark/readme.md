@@ -9,6 +9,7 @@ Needed : GTK+ 3.22</br>
 Have been test on : Debian Stretch (9.5), Ubuntu 18.04.1 LTS, Linux Mint 19</br>
 Install themes : For a better result, Extract Archive File On Directory<i> /usr/share/themes (as root),</i> </br>
 If you install theme on local system, <i>/.themes or /.local/share/themes</i> may be GTK2 Theme not working properly.</br>
+Download themes : https://www.opendesktop.org/p/1280968/</br>
 
 ## Change themes
 

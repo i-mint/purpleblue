@@ -2774,6 +2774,9 @@ stackswitcher button.circular, stackswitcher button.nautilus-circular-button.ima
 *:drop(active) {
   box-shadow: inset 0 0 0 1px #F08437; }
 
+window decoration, .tiled decoration, .maximize decoration {
+  border: 2.6px dotted rgba(184, 199, 216, 0.6); }
+
 decoration {
   border-radius: 4px 4px 0 0;
   border-width: 0px;
