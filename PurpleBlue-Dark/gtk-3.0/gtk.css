@@ -4227,3 +4227,37 @@ filechooser placessidebar.sidebar scrollbar,
 @define-color wm_icon_unfocused_bg #666A74;
 @define-color wm_icon_hover_bg #C4C7CC;
 @define-color wm_icon_active_bg #ffffff;
+.budgie-panel button {
+  background-color: transparent; }
+  .budgie-panel button:hover {
+    color: #ffffff;
+    background-color: rgba(85, 117, 155, 0.56); }
+  .budgie-panel button:checked {
+    color: #ffffff;
+    background-color: #55759b; }
+  .budgie-panel button:active {
+    color: #ffffff;
+    background-color: rgba(85, 117, 155, 0.78); }
+.budgie-panel #tasklist-button {
+  background-color: rgba(34, 18, 45, 0.95);
+  border-left: 2px solid transparent; }
+  .budgie-panel #tasklist-button label {
+    color: rgba(236, 237, 244, 0.56); }
+  .budgie-panel #tasklist-button:hover {
+    color: #ecedf4;
+    background-color: rgba(43, 23, 56, 0.95);
+    border-left: 2px solid rgba(110, 59, 146, 0.95); }
+    .budgie-panel #tasklist-button:hover label {
+      color: #ecedf4; }
+  .budgie-panel #tasklist-button:checked {
+    color: #ecedf4;
+    background-color: rgba(48, 26, 63, 0.95);
+    border-left: 2px solid rgba(97, 52, 128, 0.95); }
+    .budgie-panel #tasklist-button:checked label {
+      color: #ecedf4; }
+  .budgie-panel #tasklist-button:active {
+    color: rgba(236, 237, 244, 0.78);
+    background-color: rgba(45, 24, 60, 0.95);
+    border-left: 2px solid rgba(102, 55, 135, 0.95); }
+    .budgie-panel #tasklist-button:active label {
+      color: rgba(236, 237, 244, 0.78); }
